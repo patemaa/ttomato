@@ -1,0 +1,162 @@
+.baslıkAlanı {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:1627px;
+}
+/*-------------------------------------------------------*/
+
+.solKolon {
+    background-color: grey;
+    height: 1000px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left:5px;
+    width:400px;
+}
+.solKolon label{
+    font-size:18px;
+}
+
+.solKolon h6{
+    font-size:20px;
+    margin:0;
+}
+
+textarea{
+    height:20px;
+    width: 200px;
+    box-sizing: border-box;
+
+}
+
+/*------------------------------------------------------------*/
+
+
+.ortaKolon {
+    background-color: lightgrey;
+    height: 1000px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left:5px;
+    width:400px;
+
+}
+
+.ortaKolon label{
+    font-size:18px;
+}
+
+.ortaKolon h6{
+    font-size:20px;
+    margin:0;
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    box-sizing:border-box;
+}
+
+/*----------------------------------------------------------------*/
+.sagKolon {
+    background-color: #d8d0a1;
+    height: 1000px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:800px;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+h5 {
+    text-align: center;
+}
+
+.fotoğraf{
+    width: 200px;
+    height:200px;
+    border:1px solid black;
+    border-radius:100%;
+    margin-left:25px;
+}
+.solKısım{
+    width: 250px;
+    height: 995px;
+    background-color: rgb(130, 133, 101);
+    margin-left:40px;
+    padding-top:5px;
+}
+.içerik h4{
+    margin:0;
+}
+
+.sağÜstKutu{
+    background-color:rgb(134, 17, 17);
+    width:510px;;
+    height:200px;
+    float:right;
+    text-align:center;
+    padding-top:60px;
+}
+#sağÜstKutuİsim{
+    font-size:40px;
+    margin:0;
+}
+#sağÜstKutuÜnvan{
+    font-size:30px;
+    margin:0;
+}
+#sağÜstKutuÇizgi{
+    border-bottom: 2px solid;
+    margin: 5px auto;
+    width:100px;
+}
+
+.sağAltKutu{
+    width:510px;
+    height:740px;
+    background-color: aqua;
+    float:inline-end;
+}
+
+
+#sozcukAltindakiCizgi{
+    border-bottom:1px solid black;
+    margin-left:10px;
+    margin-right:20px;
+
+}
+
+.baslikx{
+    margin-left:20px;
+}
+
+/* .kutu{
+
+} */
+
+/* .içerik h4{
+    border-bottom:1px solid black;
+    margin-left:10px;
+    margin-right:20px;
+
+} */
+
+
+
+/* 
+.solKolon input, textarea, select{
+    display: block;
+    margin-left:100px;
+
+}
+.ortaKolon input, select{
+    display: block;
+    margin-left:210px;
+} */
